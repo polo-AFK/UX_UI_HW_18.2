@@ -1,0 +1,148 @@
+header {
+    background-color: #1E4147;
+    color: #aac789;
+    font-size: 36px;
+	padding: 50px;
+}
+inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    width: 73%;
+    padding: 1%
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    align-items: right;
+    width: 50%;
+    margin: right;
+	justify-content: start;
+
+
+}
+
+h3 {
+	color: white;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h4{
+	
+	color: white;
+	font-size: 24px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+    padding: 10px;
+	align-items: end;
+}
+
+
+.header div{
+    width: 100px;
+    height: 100px;
+}
+
+content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    margin: auto 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 5%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+body {
+    background-color: #1E4147;
+    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    background-color: #aac789;
+    color: black;
+    font-size: 18px;
+}
+
+#userGridArea{
+
+	margin: 0px 5%;
+	display:grid;
+	min-height: 500px;
+	height: 70vh;
+	grid-template-rows: 33% 33% 33%;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"outBoulder"
+    "deptOfed"
+    "iNeed" ;
+}
+
+img {
+	height: 200px;
+	padding: 5%;
+    display: flex;
+    justify-content: end;
+	align-items: flex-end;
+}
+
+
+
+.userGridArea {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	display: table-row;
+	position: relative;
+	flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	#navigation {
+	  display: none;
+	}
+	.icons {
+	  margin-left: auto;
+	}
+  }
+  
+  @media only screen and (max-width: 600px) {
+	#headline {
+	  position: static;
+	  margin: 20px;
+	}
+	
+	}
+	#categoryGrid {
+	  grid-template-rows: 300px 300px ;
+	  grid-template-columns: 1fr;
+	  grid-template-areas:
+      "outBoulder"
+      "deptOfed"
+      "iNeed" 
+	  ;
+	}
